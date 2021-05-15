@@ -1,0 +1,30 @@
+body{
+    margin: 0 auto;
+text-align: center;
+
+}
+
+main{
+    margin: 0 auto;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: fuchsia;
+    border-radius: 25px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#erg{
+    height: 250px;
+
+    background-color: fuchsia;
+    border-radius: 25px;
+   
+}
+#erg p{
+    margin: 0;
+
+}

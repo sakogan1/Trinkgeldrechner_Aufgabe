@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>TrinkgeldRechner</title>
+</head>
+<body>
+    <main>
+    <h1>Trinkgeldrechner</h1>
+    <p>
+        Wie hoch war die Rechnung?
+    </p>
+    <input type="number" name="betrag" id="summe">
+    <p>Wie viele Menschen teilen sich die Rechnung?</p>
+    <input type="number" name="anzahl" id="personen">
+    
+        <form>
+      <select id="service">
+        <option value="0">Wie war der Service</option>
+        <option value="1">Schlecht</option>
+        <option value="2">Okay</option>
+        <option value="3">Super</option>
+      <input type="button" value="Berechne" onclick="berechne()"></input>
+    </form>
+    <div id="erg"></div>
+      <script src="assets/js/main.js"></script>
+</main>
+</body>
+</html>
